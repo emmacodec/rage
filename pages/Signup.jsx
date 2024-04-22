@@ -1,11 +1,13 @@
+'use client'
+
 import React from 'react'
 
-const Signup = () => {
+const signup = () => {
   return (
     <div>
-      
+      sign up
     </div>
   )
 }
 
-export default Signup;
+export default signup;
