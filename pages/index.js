@@ -3,6 +3,7 @@ import CausesPage from '@/components/CausesPage'
 import DonationPage from '@/components/DonationPage'
 import HomePage from '@/components/HomePage'
 import Navbar from '@/components/Navbar'
+import Signup from '@/components/Signup'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -21,6 +22,7 @@ export default function Home() {
       <Navbar />
       <HomePage />
       <AboutPage />
+      <Signup />
       <CausesPage />
       <DonationPage />
     </div>
